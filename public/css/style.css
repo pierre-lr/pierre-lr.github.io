@@ -12,6 +12,13 @@ html, body
   height: 100%;
 }
 
+.md__image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 main
 {
   flex: 1;
