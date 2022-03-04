@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+{{ partial "head" . }}
+{{ $mymonths := index $.Site.Data.mois }}
+<body id="main-container">
+  {{ partial "header" . }}
+  <main>
+    <section class="introduction">
+      <h1>Je m'appelle Pierre</h1>
+
+      <p>Je suis en fin d'études d'ingénieur informatique et UX Designer. Je m'intéresse aux enjeux de sobriété numérique, à l'écologie, aux sciences humaines et cognitives et à la société dans son ensemble. Ce site me sert à formaliser mes connaissances et mes recherches, et à monter en compétences.</p>
+
+      <p>Outre des articles, je souhaite également y partager des créations personnelles.</p>
+
+      <p>Bonne lecture !</p>
+    </section>
+
+    <div class="grid-fit">
+      <nav class="list-container" aria-label="Navigation secondaire">
+        <header class="headline">
+          <h2><a class="link" href="./articles">Articles &#128221;</a></h2>
+        </header>
+        <ul>
+          {{if gt (len (where .Site.Pages "Section" "Articles")) 1 }}
+            {{range first 5 (where .Site.RegularPages "Type" "Articles") }}
+            <li class="list-item">
+              <p class="item-name"> <a class="link" href={{.Permalink}}>{{humanize .Title}}</a></p>
+              <p class="date-item-name"> Publié le {{ .Date.Day }} {{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}</p>
+              <p class="subtitle-item-name">{{.Params.description}}</p>
+            </li>
+            {{end}}
+          {{else}}
+            {{partial "noContent" .}}
+          {{end}}
+        </ul>
+      </nav>
+      <nav class="list-container" aria-label="Navigation secondaire">
+        <header class="headline">
+          <h2><a class="link" href="./creations">Créations &#128161;</a></h2>
+        </header>
+        <ul>
+          {{if gt (len (where .Site.Pages "Section" "Creations")) 1 }}
+            {{range first 5 (where .Site.RegularPages "Type" "Creations")}}
+            <li class="list-item">
+              <p class="item-name"> <a class="link" href={{.Permalink}}>{{humanize .Title}}</a></p>
+              <p class="date-item-name"> Publié le {{ .Date.Day }} {{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}</p>
+              <p class="subtitle-item-name">{{.Params.description}}</p>
+            </li>
+            {{end}}
+          {{else}}
+          {{partial "noContent" .}}
+          {{end}}
+        </ul>
+      </nav>
+
+      <nav class="list-container" aria-label="Navigation secondaire">
+        <header class="headline">
+          <h2><a class="link" href="./miscs">...</a></h2>
+        </header>
+        <ul>
+          {{if gt (len (where .Site.Pages "Section" "Miscs")) 1 }}
+            {{range first 5 (where .Site.RegularPages "Type" "Miscs")}}
+            <li class="list-item">
+              <p class="item-name"> <a class="link" href={{.Permalink}}>{{humanize .Title}}</a></p>
+              <p class="date-item-name"> Publié le {{ .Date.Day }} {{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}</p>
+              <p class="subtitle-item-name">{{.Params.description}}</p>
+            </li>
+            {{end}}
+          {{else}}
+          {{partial "noContent" .}}
+          {{end}}
+        </ul>
+      </nav>
+    </div>
+  </main>
+  {{ partial "footer" . }}
+</body>
+</html>

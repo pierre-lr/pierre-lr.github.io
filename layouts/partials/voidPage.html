@@ -1,0 +1,5 @@
+{{if eq (len (where .Site.Pages "Section" .Title)) 0 }}
+<h1>Page vide</h1>
+  <p>Cette page est actuellement vide, revenez plus tard.</p>
+  <p><a href="{{ "/" | relURL }}">Cliquez ici pour retourner à l'accueil</a>.</p>
+{{end}}

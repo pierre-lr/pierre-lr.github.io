@@ -1,0 +1,27 @@
+{{ define "main"}}
+  {{ if (eq .Title "Articles")}}
+    <h1>Articles &#128221;</h1>
+  {{else if (eq .Title "Creations")}}
+    <h1>Créations &#128161;</h1>
+  {{else if (eq .Title "Miscs")}}
+    <h1>...</h1>
+  {{ else }}
+    <h1>{{ humanize .Title}}</h1>
+  {{ end }}
+
+  {{.Content}}
+      {{if eq (len (where .Site.Pages "Section" .Title)) 1 }}
+        Cette parge est actuellement vide. Revenez plus tard.
+      {{end}}
+      {{ range .Pages }}
+          <div class="listPage-background">
+               <div style="font-size:20px;">
+                    <a href="{{.RelPermalink}}">{{humanize .Title}}</a>
+               </div>
+               <div class="listPage-meta">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
+               <div class="listPage-meta">{{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+               <div class="listPage-meta">{{ if .Params.categories }}<strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div>
+               <p class="listPage-sum">{{truncate 150 .Summary}}</p>
+          </div>
+     {{ end }}
+{{end}}
