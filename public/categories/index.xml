@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Pierre La Rocca</title>
-    <link>https://pierrelarocca.fr/categories/</link>
+    <link>https://pierre-lr.github.io/categories/</link>
     <description>Recent content in Categories on Pierre La Rocca</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language><atom:link href="https://pierrelarocca.fr/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr-fr</language><atom:link href="https://pierre-lr.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
