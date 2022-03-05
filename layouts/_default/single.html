@@ -1,3 +1,11 @@
 {{ define "main"}}
+{{ $mymonths := index $.Site.Data.mois }}
+<header class="headline">
+  <h1 class="title">{{.Title}}</h1>
+  <p class="subtitle">{{if .Params.author}}{{.Params.Author}}{{end}}, {{if .Params.Date}} {{ .Date.Day }} {{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}{{end}}</p>
+</header>
+<article class="blog-post">
     {{.Content}}
+</article>
+
 {{end}}

@@ -1,11 +1,10 @@
 ---
-title: "Flyers Vss"
+title: "Réalisation de Flyers pour l'association Stop VSS"
 date: 2022-03-04T18:41:02+01:00
+author: Pierre La Rocca
+description: "Réalisation de tracts pour l'association Stop VSS."
 draft: false
 ---
-
-# Réalisation de Flyers pour l'association Stop VSS
-
 ## Description
 À l'occasion du 8 mars, j'ai réalisé des flyers pour l'associations UTCéenne *Stop VSS*. L'objectif est de sensibiliser les étudiant.e.s de l'UTC aux violences sexistes et sexuelles. Les tracts réalisés sont disponibles ci-dessous, sous licence libre CC-BY-NC-SA.
 

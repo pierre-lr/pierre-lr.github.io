@@ -12,11 +12,15 @@ html, body
   height: 100%;
 }
 
-.md__image {
-  display: block;
+.image-wrapper{
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  max-width: 600px;
+}
+
+.img{
+  width: 100%;
+  height: auto;
 }
 
 main
@@ -85,6 +89,12 @@ a
   border-bottom: 1px solid black
 }
 
+.listPage{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 .listPage-background{
   background-color: #F5F5F5;
   border-radius: 10px;
@@ -133,6 +143,30 @@ a
   font-size: small;
   font-weight: lighter;
   font-style: italic;
+  color: #515151;
+}
+
+/* Single page */
+.headline{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.blog-post{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.title{
+  font-size: xx-large;
+}
+
+.subtitle{
+  margin-top: -0.5rem;
+  font-size: medium;
+  font-weight: lighter;
   color: #515151;
 }
 
@@ -301,7 +335,7 @@ footer
 
   .introduction
   {
-    width: 80%;
+    width: 70%;
   }
 
   .article{
