@@ -1,4 +1,4 @@
-baseURL = 'https://pierrelarocca.fr'
+baseURL = 'https://pierre-lr.github.io'
 languageCode = 'fr-fr'
 title = 'Pierre La Rocca'
 custom_css = ["/css/style.css"]
