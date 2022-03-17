@@ -127,8 +127,7 @@ a
 }
 
 .link:hover{
-
-    color:#464e4f;
+  color:#464e4f;
 }
 
 .site-title a
@@ -205,6 +204,9 @@ a
   color: #515151;
 }
 
+.task-list-item{
+  list-style-type: none;
+}
 
 /*Responsive rules*/
 

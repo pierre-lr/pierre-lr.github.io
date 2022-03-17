@@ -7,5 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Mon, 14 Feb 2022 15:12:21 +0100</lastBuildDate><atom:link href="https://pierrelarroca.fr/articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fiche sur l&#39;accessibilité</title>
+      <link>https://pierrelarroca.fr/articles/accessibilite/</link>
+      <pubDate>Thu, 17 Mar 2022 18:12:40 +0100</pubDate>
+      
+      <guid>https://pierrelarroca.fr/articles/accessibilite/</guid>
+      <description>À quoi sert l&amp;rsquo;accessibilité numérique ? L&amp;rsquo;accessibilité garantie qu&amp;rsquo;une chose peut être utilisée par le plus grand nombre de personnes possible. Appliquée au numérique, elle permet aux gens en situation de handicap de pouvoir accéder à l&amp;rsquo;information sans être discriminées sur des critères de capacités ou de besoins.
+D&amp;rsquo;après le site Design Accessible, en France :
+ On estime qu’une personne sur 5 est en situation de handicap. 80 % de ces handicaps sont invisibles.</description>
+    </item>
+    
   </channel>
 </rss>

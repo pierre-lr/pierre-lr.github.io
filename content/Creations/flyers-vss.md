@@ -8,7 +8,7 @@ draft: false
 ## Description
 À l'occasion du 8 mars, j'ai réalisé des flyers pour l'associations UTCéenne *Stop VSS*. L'objectif est de sensibiliser les étudiant.e.s de l'UTC aux violences sexistes et sexuelles. Les tracts réalisés sont disponibles ci-dessous, sous licence libre CC-BY-NC-SA.
 
-![Tract Stop VSS](/images/tracts-stopvss.png)
+![Tract Stop VSS.](/images/tracts-stopvss.png)
 
 ## Contenu des tracts
 Les tracts contiennent :
