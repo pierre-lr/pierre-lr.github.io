@@ -1,3 +1,5 @@
+/* Structure générale */
+
 html, body
 {
   font-family: arial, verdana;
@@ -5,94 +7,76 @@ html, body
   height: 100%;
 }
 
-#main-container
-{
-  display:flex;
-  flex-direction: column;
-  height: 100%;
+body{
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
-.image-wrapper{
+main{
+  width: 90%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 600px;
-}
-
-.img{
-  width: 100%;
-  height: auto;
-}
-
-main
-{
-  flex: 1;
-  overflow: auto;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   align-items: center;
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 
-.element
-{
+footer{
+  bottom: 0;
+  height: 100%;
+  text-align: center;
+  background-color: #dff2e6;
+  color: #2A3133; /*Ratio 7.04:1 */
   width: 100%;
 }
 
-a
-{
-  color: inherit;
+.footer .element {
+  height: 100%;
+  width: 98%;
+  text-align: center;
+  overflow-wrap: break-word;
 }
 
-.site-title a
-{
-  color: inherit;
-  text-decoration: underline;
-}
-
+/* Navigation */
 .header-nav a, .headline a, .item-name a
 {
   color: inherit;
   text-decoration: none;
 }
 
-.link:hover{
-
-    color:#464e4f;
-}
-
+/* Structure de la page */
 .grid-fit{
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
 
 .list-container
 {
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
   padding: 1rem;
-  margin: 1rem;
+  margin: 0.2rem;
   background-color: #F5F5F5;
   border-radius: 15px;
 }
 
-.list-item .link:hover
+list-item .link:hover
 {
   text-decoration: underline;
 }
 
-.headline
-{
-  margin: 1rem;
-  margin-top: -1rem;
-  padding: 0rem;
-  border-bottom: 1px solid black
-}
+/* Type de page listPage */
 
 .listPage{
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 100%;
 }
 
 .listPage-background{
@@ -112,6 +96,56 @@ a
   font-size:18px;
   font-style: italic;
 }
+
+/* Gestion des images */
+.image-wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+.img{
+  width: 100%;
+  height: auto;
+}
+
+
+/* Contenu Textuel */
+
+.introduction p{
+  font-size: 18px;
+}
+
+.element
+{
+  width: 100%;
+}
+
+a
+{
+  color: inherit;
+}
+
+.link:hover{
+
+    color:#464e4f;
+}
+
+.site-title a
+{
+  color: inherit;
+  text-decoration: underline;
+}
+
+.headline
+{
+  margin: 1rem;
+  margin-top: -1rem;
+  padding: 0rem;
+  border-bottom: 1px solid black
+}
+
+/* Liste */
 
 .list-item
 {
@@ -157,6 +191,7 @@ a
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  font-size: 18px;
 }
 
 .title{
@@ -171,44 +206,24 @@ a
 }
 
 
-.footer .element {
-  width: 98%;
-  text-align: center;
-  overflow-wrap: break-word;
-}
-
-.formulaireCheck ul{
-  list-style-type: none;
-}
-
-.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-footer
-{
-  text-align: center;
-  background-color: #dff2e6;
-  color: #2A3133; /*Ratio 7.04:1 */
-  width: 100%;
-}
-
 /*Responsive rules*/
+
+@media all and (max-width: 1000px){
+  main .grid-fit
+  {
+    width: 80%;
+    height: auto;
+    margin: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
 
 @media all and (max-width: 800px)
 {
     /* Règles CSS pour les petits écrans */
-    main .grid-fit
-    {
-      width: 80%;
-      height: auto;
-      margin: 0rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-    }
+
 
     .introduction
     {
@@ -245,8 +260,12 @@ footer
       padding: 0.5rem;
       width: 80%;
     }
+}
 
-
+@media all and (max-width: 500px){
+  .list-item .subtitle-item-name{
+    visibility: hidden;
+  }
 }
 
 @media all and (max-device-width: 480px)
@@ -260,6 +279,10 @@ footer
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+    }
+
+    .list-item .subtitle-item-name{
+      visibility: hidden;
     }
 
     .header
