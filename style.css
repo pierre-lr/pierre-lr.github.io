@@ -1,0 +1,112 @@
+html {
+    /* width: 100%; */
+    height: 100%;
+}
+
+body{
+  /* width: 100%; */
+  height: 100%;
+  min-height: 100vh;
+  max-width: 650px;
+  margin-top:40px ;
+  margin-bottom:40px ;
+  margin-left:auto ;
+  margin-right:auto ;
+  font: 18px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: black;
+  background-color: whitesmoke;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+li{
+  list-style: none; 
+}
+
+li::before{ 
+  content:">";
+  margin-right: 5px;
+}
+
+header{
+  min-height: 25px; 
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+main{
+  max-width: 1000px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 25px;
+  display: flex;
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  list-style: none;
+}
+
+.footer-list > li{
+  padding: 5px;
+}
+
+footer .footer-list .row-extend { 
+      width: 50%;
+  }
+
+.hidden {
+  display: none;
+  visibility : hidden;
+}
+
+@media (max-width: 600px){
+  footer .footer-list { 
+      display: block;
+      padding: 5px;
+  }
+  footer .footer-list .row-hide { 
+      display : none; 
+      visibility : hidden; 
+  }
+  footer .footer-list .row-extend { 
+      width: 100%;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #c9d1d9;
+    background: #0d1117;
+  }
+  a:link {
+    color: #58a6ff;
+  }
+  a:visited {
+    color: #8e96f0;
+  }
+}
