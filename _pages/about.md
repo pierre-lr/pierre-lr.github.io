@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.labri.fr/'>LaBRI</a>, Université de Bordeaux. pierre.la-rocca💬u-bordeaux.fr
 
