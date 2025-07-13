@@ -1,97 +1,110 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Sciences
+      institution: Laboratoire Bordelais de Recherche en Informatique, Bordeaux, France
+      year: Since 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Developing methods to assess the direct carbon footprint of deploying digital agriculture devices at a territorial scale.
+        - Under the supervision of Aurélie Bugeau and Gaël Guennebaud.
+
+    - title: UX Design Master Degree
+      institution: Université de Technologie, Compiègne, France
+      year: 2021 - 2022
+      description:
+        - Designed the Fresk of social networks and the attention economy.
+
+    - title: Computer Engineering Degree 
+      institution: Université de Technologie, Compiègne, France
+      year: 2020 - 2022
+      description:
+        - Generalist course in software and database engineering.
+        - Specialization in artificial intelligence and data science.
+        - title: Experimental and Laboratory works
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Energy-efficient software architectures.
+            - Impact study of the client web layer and recommendations for a frugal website.
+
+    - title: Bachelor Degree 'Humanité et Technologies' 
+      institution: Université de Technologie, Compiègne, France
+      year: 2017 - 2020
       description:
-        - Description 1.
-        - Description 2.
+        - The "Humanité et Technologies" curriculum links industrial and social issues through courses that combine science, technology and the humanities.
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: IT Engineer and UX designer
+      institution: Plateaux Numériques
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Eco-designing accessible websites for public communities.
+        - Assessment of the indirect environmental effects of distance learning
+
+    - title: IT Engineering Assistant
+      institution: Institut de Recherche en Musicologie
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - title : Design of databases and human-machine interfaces for musicology research.
+          contents: 
+          - <a href="https://data-iremus.huma-num.fr/musrad30/">Musicien·ne·s radiodiffusé·e·s depuis les années 1930</a>
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2024 - 2025
+      items:
+        - title : Lowtechisation et numérique (UT Compiègne)
+          contents :
+          - Project owner and supervisor of <a href="https://lownum.scenari-community.org/projets/is03-25p/agribot/co/0-presentation.html">Agribot</a> (12h).
+        - title : Raising awareness of ecology and the impact of digital technology
+          contents: 
+          - Integrated courses (20h), L3.
+        - title : Data Structure Algorithms
+          contents: 
+          - Technical seminars (11h), L2.
+        - title : Reading articles and scientific documentation
+          contents: 
+          - Supervisor (1h), M2.
+    - year: 2023 - 2024
+      items:
+        - title : Introduction to C programming under Unix
+          contents: 
+          - Integrated courses (20h), L1.
+          - Technical seminars (16h), L1.
+        - title : Raising awareness of ecology and the impact of digital technology
+          contents: 
+          - Integrated courses (20h), L3.
+        - title : Academic Supervisor for internships
+          contents: 
+          - (10h), M2.
+    - year: 2022 - 2023
+      items:
+        - title : Supervisor for the "Ingénieur Docteur" curriculum (Enseirb Matmeca Engineering school)
+          contents: 
+          - (12h), M2.
 
-- title: Honors and Awards
+- title: Communications
   type: time_table
   contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+      - year: 2025
+        items:
+          - title : La technique est-elle politique ? Perspectives historiques
+            contents: 
+            - <a href="https://atecopols2025.sciencesconf.org/program?lang=fr">Rencontres Inter-AtEcoPol</a>. Toulouse.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+          - title : Le réseau mobile actuel suffit-il au déploiement de robots agricoles ?
+            contents: 
+            - <a href="https://greendays.sciencesconf.org/resource/page/id/3">Green Days</a>. Rennes.  
 
-- title: Other Interests
-  type: list
+          - title : Estimating the environmental impact of Digital Agriculture.
+            contents : 
+            - <a href="https://uf-mi.u-bordeaux.fr/mas/numerics-2024-2025-semaine-numerique-et-transitions/">Séminaire Numérics</a>. Université de Bordeaux.
+- title: Awards
+  type: time_table
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - year: 2025
+      items:
+        - title : Best Paper Award 11th International Conference on ICT for Sustainability (ICT4S)
+          contents: 
+          - Received for 'Can Current Mobile Network Support Agricultural Robots ?', published with G. Guennebaud and A. Bugeau.
