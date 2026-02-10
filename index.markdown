@@ -13,7 +13,7 @@ layout: home
 
 - Currently teaching C programming, algorithm and programming technic and software development (Java, Javascript).
 
-- **I'm looking for a postdoc** :)
+- **I'm looking for a postdoc**
 
 ## Thesis
 
