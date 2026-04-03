@@ -4,54 +4,40 @@ title : Curriculum
 ---
 ## Teaching
 
-### 2025 - 2026
-- Introduction to C programming with Unix
-  - Integrated courses (20h), L1.
-  - Technical seminars (16h), L1.
-- Algorithmic techniques and programming
-  - Turorials (11h), L3.
-  - Technical seminars (20h), L3.
-- Software development project
-  - Technical seminars (29h), L3.
+Total of 214 hours between 2022 and 2026.
 
-### 2024 - 2025
+### Computer Sciences
 
-- Lowtechisation et numérique @ [UT Compiègne](https://www.utc.fr/)
-    - Project owner and supervisor of [Agribot](https://lownum.scenari-community.org/projets/is03-25p/agribot/co/0-presentation.html) (12h).
-- Raising awareness of ecology and the impact of digital technology
-    - Integrated courses (20h), L3.
-- Data Structure Algorithms
-  - Technical seminars (11h), L2.
-- Reading articles and scientific documentation
-    - Supervisor (1h), M2.
+| Name                                   | Level | Type              | Time (h) |
+|:---------------------------------------|:-----:|:-----------------:|---------:|
+| Algorithmic Techniques and Programming | L3    | Tutorial Sessions | 11       |
+|                  –                     |   –   | Practical Works   | 21       |
+| Algorithms for Data Structures         | L2    | Practical Works   | 11       |
+| Software Development Project           | L3    | Practical Works   | 42       |
 
-### 2023 - 2024
-- Introduction to C programming with Unix
-  - Integrated courses (20h), L1.
-  - Technical seminars (16h), L1.
-- Raising awareness of ecology and the impact of digital technology
-  - Integrated courses (20h), L3.
-- Academic Supervisor for internships
-  - (10h), M2.
+### ICT and sustainability
 
-### 2022 - 2023
-- Supervisor for the "Ingénieur Docteur" curriculum @ [Bordeaux INP](https://enseirb-matmeca.bordeaux-inp.fr/fr)
-    - (12h), M2.
+| Name                                   | Level | Type              | Time (h) |
+|:---------------------------------------|:-----:|:-----------------:|---------:|
+| Awareness to Ecology and the Environmental Impact of ICT | L3    | Integrated Lectures            | 40   |
+| Low-tech Approaches and ICT                              | Mixed | Commissioning and supervision of [Agribot](https://lownum.scenari-community.org/projets/is03-25p/agribot/co/0-presentation.html) | 12   |
 
+### Supervision
 
-## Education
+| Name                                   | Level | Type              | Time (h) |
+|:---------------------------------------|:-----:|:-----------------:|---------:|
+| Reading Scientific Articles and Documentation | M2 | | 1   |
+| Internship Supervision                        | M2 | | 10  |
+| Supervising a research project                | M2 | | 12  |
 
-### PhD in Computer Sciences 
-[Laboratoire Bordelais de Recherche en Informatique](https://www.labri.fr/), 2022 – 2025
+## Educational Background
 
-- Developing methods to assess the direct carbon footprint of deploying digital agriculture devices at a territorial scale.
-- Under the supervision of Aurélie Bugeau and Gaël Guennebaud.
-
-### UX Design Master Degree 
+### Master’s Degree in Humanities and Creative Industries.
 Université de Technologie de Compiègne, 2021 – 2022
+Track: experience-centered design.
 - Designed the Fresk of social networks and the attention economy.
   
-### Computer Engineering Degree 
+### Computer Science Engineering Degree 
 Université de Technologie de Compiègne, 2020 – 2022
 - Generalist course in software and database engineering.
 - Specialization in artificial intelligence and data science.
@@ -61,7 +47,11 @@ Université de Technologie de Compiègne, 2020 – 2022
   
 ### Bachelor Degree ['Humanité et Technologies'](https://www.utc.fr/formations/diplome-dingenieur/cursus-humanites-et-technologie-hutech/)
 Université de Technologie de Compiègne, 2017 – 2020
-- The "Humanité et Technologies" curriculum links industrial and social issues through courses that combine science, technology and the humanities.
+- Connecting industrial and social challenges through courses linking science, engineering and humanities
+
+## Academic Responsibilities & Involvements
+- Organizing committee for the [SustainableICT](https://www.sictdoctoralschool.com/) doctoral school (SICT) since 2025.
+- Transitions council of the Université de Bordeaux from March 2023 to September 2024.
 
 ## Former Experiences 
 ### IT engineer and UX designer
@@ -75,6 +65,3 @@ Université de Technologie de Compiègne, 2017 – 2020
    - [Musicien·ne·s radiodiffusé·e·s depuis les années 1930](https://data-iremus.huma-num.fr/musrad30/)
 
 
-## Involvement
-
-- Co-organization of [SICT doctoral school](https://www.sictdoctoralschool.com/) 2026
