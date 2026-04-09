@@ -14,6 +14,8 @@ Total of 214 hours between 2022 and 2026.
 |                  –                     |   –   | Practical Works   | 21       |
 | Algorithms for Data Structures         | L2    | Practical Works   | 11       |
 | Software Development Project           | L3    | Practical Works   | 42       |
+| C programming with Unix                | L1    | Integrated Class  | 30       |
+| –                                      | –     | Tutorial Sessions | 24       |
 
 ### ICT and sustainability
 
